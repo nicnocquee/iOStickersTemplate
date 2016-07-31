@@ -37,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		031887D91D28134F0008D492 /* TestStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031887D91D28134F0008D492 /* Awesome Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		031887DD1D28134F0008D492 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		031887E11D28134F0008D492 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 		031887DA1D28134F0008D492 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				031887D91D28134F0008D492 /* TestStickers.app */,
+				031887D91D28134F0008D492 /* Awesome Stickers.app */,
 				031887DD1D28134F0008D492 /* StickerPackExtension.appex */,
 			);
 			name = Products;
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		031887D81D28134F0008D492 /* TestStickers */ = {
+		031887D81D28134F0008D492 /* Awesome Stickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031887EA1D28134F0008D492 /* Build configuration list for PBXNativeTarget "TestStickers" */;
+			buildConfigurationList = 031887EA1D28134F0008D492 /* Build configuration list for PBXNativeTarget "Awesome Stickers" */;
 			buildPhases = (
 				031887D71D28134F0008D492 /* Resources */,
 				031887E91D28134F0008D492 /* Embed App Extensions */,
@@ -75,9 +75,9 @@
 			dependencies = (
 				031887E01D28134F0008D492 /* PBXTargetDependency */,
 			);
-			name = TestStickers;
+			name = "Awesome Stickers";
 			productName = TestStickers;
-			productReference = 031887D91D28134F0008D492 /* TestStickers.app */;
+			productReference = 031887D91D28134F0008D492 /* Awesome Stickers.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		031887DC1D28134F0008D492 /* StickerPackExtension */ = {
@@ -106,19 +106,15 @@
 				TargetAttributes = {
 					031887D81D28134F0008D492 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NNTV3ZQR3E;
-						DevelopmentTeamName = "nico prananta";
 						ProvisioningStyle = Automatic;
 					};
 					031887DC1D28134F0008D492 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NNTV3ZQR3E;
-						DevelopmentTeamName = "nico prananta";
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 031887D61D28134F0008D492 /* Build configuration list for PBXProject "TestStickers" */;
+			buildConfigurationList = 031887D61D28134F0008D492 /* Build configuration list for PBXProject "Awesome Stickers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				031887D81D28134F0008D492 /* TestStickers */,
+				031887D81D28134F0008D492 /* Awesome Stickers */,
 				031887DC1D28134F0008D492 /* StickerPackExtension */,
 			);
 		};
@@ -253,7 +249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.TestStickers.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delightfuldev.awesome-stickers.StickerPackExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -264,7 +260,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.TestStickers.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delightfuldev.awesome-stickers.StickerPackExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -275,7 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = TestStickers/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.TestStickers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delightfuldev.awesome-stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,7 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = TestStickers/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.delightfuldev.TestStickers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delightfuldev.awesome-stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		031887D61D28134F0008D492 /* Build configuration list for PBXProject "TestStickers" */ = {
+		031887D61D28134F0008D492 /* Build configuration list for PBXProject "Awesome Stickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031887E41D28134F0008D492 /* Debug */,
@@ -311,14 +307,16 @@
 				031887E81D28134F0008D492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		031887EA1D28134F0008D492 /* Build configuration list for PBXNativeTarget "TestStickers" */ = {
+		031887EA1D28134F0008D492 /* Build configuration list for PBXNativeTarget "Awesome Stickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031887EB1D28134F0008D492 /* Debug */,
 				031887EC1D28134F0008D492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
